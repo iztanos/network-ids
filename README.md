@@ -1,7 +1,6 @@
 # Intrusion Detection System (IDS)
 
 ## Description
-<<<<<<< HEAD
 The Intrusion Detection System (IDS) is a comprehensive network security tool designed to detect and alert on suspicious activities such as port scans and ARP spoofing. The system includes email and Slack alert functionalities, a scheduled daily summary report, and a CLI interface for configuration. Key features include configurable time windows and thresholds for detecting port scans, detailed logging of packet data, and a robust database for storing alerts and generating reports. The system utilizes libraries such as `scapy` for packet processing, `apscheduler` for scheduling tasks, and `pytest` for unit testing.
 
 ## Features
@@ -151,22 +150,3 @@ These examples demonstrate how to interact with the `ids.db` database using SQL 
 
 ## License
 This project is licensed under the MIT License.
-=======
-This is a lightweight Python-based Intrusion Detection System (IDS) that monitors network traffic in real time and detects potential port scan activities.
-It captures packets using the Scapy library, identifies the source IP addresses, classifies ports as safe or suspicious, and logs activities for analysis.
-
-## Features
-1. Real-time network packet sniffing
-2. Detection of potential port scans based on suspicious port access thresholds
-3. Differentiates between known safe ports (e.g., HTTP/HTTPS) and others
-4. Logs: Suspicious activities with timestamps (ids_alerts.log) and all unique IPs ever seen (ids_all_ips.log)
-5. Configurable detection thresholds and time windows
-
-## Requirments
-Python 3.7+
-Scapy (pip install scapy)
-(Windows) Install Npcap for packet capturing (https://nmap.org/npcap/)
-
-## How to Run
-python ids_detector.py
->>>>>>> 60d40302ce7e1ed4a4589387315ec27fc036c60a
