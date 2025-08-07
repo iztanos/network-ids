@@ -1,0 +1,14 @@
+scapy
+apscheduler
+pytest
+colorama
+py
+pluggy
+iniconfig
+tomli
+tzlocal
+logging
+datetime
+argparse
+typing
+requests
